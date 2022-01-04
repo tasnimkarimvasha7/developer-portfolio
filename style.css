@@ -5,13 +5,16 @@
  h1{
     font-size: 50px;
  }
+ h2{
+    font-size: 40px;
+ }
  .ong-class{
     color: orangered;
 
  }
- section{
+ .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
  }
  .side-chap{
     width:50%;
@@ -26,9 +29,9 @@
  .link-button{
     text-decoration: none;
     background-image: linear-gradient(pink, blue);
-   padding: 10px, 40px;
+   padding: 10px 40px;
    font-weight: 700;
-   border-radius: 7px;
+   border-radius: 10px;
 
  }
  .top-banner{
@@ -40,4 +43,32 @@
    background-repeat: no-repeat;
    background-position: right;
 
+}
+.Ex-area{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+
+.ex-item{
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 40px gray;
+}
+#web-dev
+{
+   border-left: 7px solid;
+border-image: linear-gradient(pink,coral);
+border-image-slice: 1;
+}
+#full-stack{
+border-left: 7px solid;
+border-image: linear-gradient(blue,cyan);
+border-image-slice:1;
+}
+footer p{
+   text-align: center;
 }
